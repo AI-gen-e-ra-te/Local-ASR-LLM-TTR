@@ -1,0 +1,33 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.properties
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Large Model Files and Resources
+funasr-runtime-resources/
+GPT-SoVITS-20250606v2pro/GPT_weights*/
+GPT-SoVITS-20250606v2pro/SoVITS_weights*/
+GPT-SoVITS-20250606v2pro/pretrained_models/
+GPT-SoVITS-20250606v2pro/TEMP/
+temp_model_cache/
+
+# Audio
+*.wav
+*.mp3
+# Keep reference audio if needed, comment out if you want to keep ref_audio.wav
+!ref_audio.wav
+
+# Logs
+*.log
+

@@ -10,10 +10,14 @@
     <h1>数字人 Demo（阿里百炼 LLM + TTS）</h1>
 
     <div class="card">
-        <h2>文字输入</h2>
+        <h2>输入 (文字或语音)</h2>
         <textarea id="textInput" rows="4"
                   placeholder="在这里输入你想说的话..."></textarea>
-        <button id="sendTextBtn">发送文字</button>
+        <div class="btn-group">
+            <button id="sendTextBtn">发送文字</button>
+            <button id="recordBtn">按住说话</button>
+        </div>
+        <div id="status" style="margin-top: 10px; color: #666;"></div>
     </div>
 
     <div class="card">

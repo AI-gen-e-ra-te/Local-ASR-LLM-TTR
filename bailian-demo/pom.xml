@@ -38,6 +38,13 @@
             <artifactId>jackson-databind</artifactId>
         </dependency>
 
+        <!-- WebSocket Client (用于连接本地 FunASR) -->
+        <dependency>
+            <groupId>org.java-websocket</groupId>
+            <artifactId>Java-WebSocket</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+
         <!-- Lombok（可选，方便写 POJO） -->
         <dependency>
             <groupId>org.projectlombok</groupId>
